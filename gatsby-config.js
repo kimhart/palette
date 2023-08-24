@@ -6,7 +6,9 @@ module.exports = {
     title: `palette`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: [{
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    {
     resolve: 'gatsby-source-contentful',
     options: {
       "accessToken": "wOmkQspKFshMmOyJxSoizRkqucJ4yv1UCYBjHTV4zcQ",
